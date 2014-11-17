@@ -1,0 +1,9 @@
+#!/bin/bash
+# Script to start our application
+echo "Doing autorun script..."
+sudo killall gpsd 
+sudo gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock &
+sudo service ntp restart &
+sudo ntpd &
+sleep 3 &
+sh GPS_gpsd.sh

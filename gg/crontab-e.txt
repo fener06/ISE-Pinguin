@@ -1,0 +1,1 @@
+@reboot /bin/sleep 3 && sh /home/pi/GPS_gpsd.sh &

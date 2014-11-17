@@ -1,0 +1,15 @@
+GPS-Daten Raspinguin (ISE) vom 10.11.2014_03:17:12
+---------------------------------------------------
+latitude       48.895020621
+longitude      8.705377308
+time utc       2014-11-10T02:17:34.000Z
+altitude (m)   297.857
+eps            nan
+epx            nan
+ept            0.005
+speed (m/s)    0.124
+climb          0.012
+track          96.5814
+mode           3
+
+Log Datei wurde gesichert.
